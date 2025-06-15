@@ -8,7 +8,7 @@ This is a simple spam detection machine learning model using the Multinomial Nai
 - CountVectorizer
 - VS Code
 - Streamlit - UI
-- 
+  
 ## How to Run
 1. Clone this repo
 2. Install required libraries: scikit-learn, pandas, streamlit
