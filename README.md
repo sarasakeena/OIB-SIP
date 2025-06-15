@@ -17,7 +17,7 @@ This is a simple spam detection machine learning model using the Multinomial Nai
 2. Install required libraries: scikit-learn, pandas, streamlit
 3. Run the script
 
-##Sample Output
+## Sample Output
 Accuracy : 0.98
 ['Spam']
 
