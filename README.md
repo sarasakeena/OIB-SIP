@@ -69,9 +69,7 @@ It’s perfect for deploying ML models without needing complex front-end develop
 Accuracy : 0.98
 ['Spam']
 
-
-
-2. SALES PREDICTION
+2.SALES PREDICTION
 
 This is a simple sales prediction machine learning model using **Linear Regression**. It predicts product sales based on advertising budgets for **TV**, **Radio**, and **Newspaper** campaigns. Built as part of the Oasis Infobyte Internship Program.
 
@@ -114,8 +112,7 @@ The Linear Regression algorithm helps us find the **best-fit line** that represe
 2. Install required libraries: scikit-learn, pandas
 3. Run the training script 
 
-
-3. UNEMPLOYMENT ANALYSIS
+3.UNEMPLOYMENT ANALYSIS
 
 This is a **data analysis and visualization project** focused on understanding **unemployment trends in India**, especially during the COVID-19 period. Built as part of the Oasis Infobyte Internship Program.
 
