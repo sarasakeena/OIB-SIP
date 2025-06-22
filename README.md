@@ -1,6 +1,8 @@
 # OIB-SIP
 
-OASIS INFOBYTE INTERNSHIP- EMAIL SPAM DETECTION
+OASIS INFOBYTE INTERNSHIP
+
+1.EMAIL SPAM DETECTION
 
 This is a simple spam detection machine learning model using the Multinomial Naive Bayes algorithm. It classifies SMS messages as Spam or Not Spam. Built as part of the Oasis Infobyte Internship Program.
 
@@ -66,6 +68,104 @@ It’s perfect for deploying ML models without needing complex front-end develop
 ## Sample Output (without streamlit)
 Accuracy : 0.98
 ['Spam']
+
+# OIB-SIP
+
+OASIS INFOBYTE INTERNSHIP
+
+2. SALES PREDICTION
+
+This is a simple sales prediction machine learning model using **Linear Regression**. It predicts product sales based on advertising budgets for **TV**, **Radio**, and **Newspaper** campaigns. Built as part of the Oasis Infobyte Internship Program.
+
+## Technologies Used
+- Python
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- Streamlit - UI
+
+## Concept
+
+This project focuses on predicting **product sales** using **Supervised Machine Learning**. The model learns the relationship between advertising spend and resulting sales figures.
+
+The steps involved in the project are:
+
+1. **Data Loading**: The dataset (`Advertising.csv`) contains advertising budgets for TV, Radio, Newspaper, and actual sales.
+2. **Exploratory Data Analysis (EDA)**: Visualizing data and correlations using `matplotlib` and `seaborn`.
+3. **Train-Test Split**: The dataset is split into training and testing sets.
+4. **Model Training**: A **Linear Regression** model is trained on the data.
+5. **Prediction**: The model predicts sales for new budget inputs.
+6. **Evaluation**: The model is evaluated using **R² score** and **Mean Squared Error (MSE)**.
+
+This is a **Regression** task, where:
+- **Input (X)**: TV, Radio, Newspaper ad budgets
+- **Output (Y)**: Predicted Sales
+
+The Linear Regression algorithm helps us find the **best-fit line** that represents the relationship between features and target.
+
+---
+
+**Why Linear Regression?**  
+- It’s simple and interpretable  
+- Great for predicting **numerical outcomes**  
+- Helps understand feature impact on target variable
+
+## How to Run
+1. Clone this repo
+2. Install required libraries: scikit-learn, pandas
+3. Run the training script 
+
+# OIB-SIP
+
+OASIS INFOBYTE INTERNSHIP
+
+3. UNEMPLOYMENT ANALYSIS
+
+This is a **data analysis and visualization project** focused on understanding **unemployment trends in India**, especially during the COVID-19 period. Built as part of the Oasis Infobyte Internship Program.
+
+## Technologies Used
+- Python
+- pandas
+- matplotlib
+- seaborn
+- Jupyter Notebook / VS Code
+
+## Concept
+
+This project focuses on analyzing the **state-wise and time-wise unemployment rate in India** using a real dataset. The goal is to generate **insights** using visualizations.
+
+The steps involved in the project are:
+
+1. **Data Loading**: The dataset is loaded from a CSV file, containing unemployment rates by area, region, and date.
+2. **Data Cleaning**: Checking for missing values, renaming columns, and converting dates.
+3. **Exploratory Data Analysis (EDA)**: Using graphs to understand patterns and trends.
+4. **Visualization**: Graphs such as line plots, bar charts, and box plots are used to show unemployment by region and time.
+5. **Insights**: The analysis reveals which regions and areas were more affected during the COVID-19 phase.
+
+This is a **Data Analysis** project — no machine learning is involved. It helps interpret real-world economic impact using data.
+
+---
+
+**Why Data Analysis?**  
+- Helps visualize real-world trends  
+- Supports **data-driven decision making**  
+- Simplifies complex datasets through visuals
+
+## How to Run
+1. Clone this repo
+2. Open the project in Jupyter Notebook or VS Code
+3. Run the notebook file step by step
+---
+
+### Sample Visual Outputs
+- 📈 **Line Plot** – Unemployment trend over time
+- 📊 **Bar Chart** – Unemployment by region
+- 📦 **Box Plot** – Urban vs Rural unemployment
+
+---
+
+
 
 Author
 Sara Sakeena
