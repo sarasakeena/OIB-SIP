@@ -69,9 +69,7 @@ It’s perfect for deploying ML models without needing complex front-end develop
 Accuracy : 0.98
 ['Spam']
 
-# OIB-SIP
 
-OASIS INFOBYTE INTERNSHIP
 
 2. SALES PREDICTION
 
@@ -116,9 +114,6 @@ The Linear Regression algorithm helps us find the **best-fit line** that represe
 2. Install required libraries: scikit-learn, pandas
 3. Run the training script 
 
-# OIB-SIP
-
-OASIS INFOBYTE INTERNSHIP
 
 3. UNEMPLOYMENT ANALYSIS
 
